@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="720" height="80" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="asset" value="01-platform.png"/>
+ </properties>
+ <tileset firstgid="1" name="01-stones" tilewidth="16" tileheight="16">
+  <image source="../01-stones.png" width="560" height="416"/>
+ </tileset>
+ <tileset firstgid="911" name="03-stones" tilewidth="16" tileheight="16">
+  <image source="../03-stones.png" width="912" height="544"/>
+ </tileset>
+ <imagelayer name="bg-05" width="720" height="80">
+  <image source="../03-bg-04.png"/>
+  <properties>
+   <property name="layer" value="10"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="bg-04" width="720" height="80">
+  <image source="../03-bg-03.png"/>
+  <properties>
+   <property name="layer" value="9"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="bg-03" width="720" height="80">
+  <image source="../03-bg-02.png"/>
+  <properties>
+   <property name="layer" value="8"/>
+  </properties>
+ </imagelayer>
+ <layer name="BG-T-Earth" width="720" height="80">
+  <properties>
+   <property name="collisions" value="0"/>
+   <property name="layer" value="6"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3dzW2TURQEUC+SQBvQBoKwSwsI2kCQNhC0gfjpgR2wowfoAmeBFCFjrqObL99cnyNlF42smfccR3aUzQYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADW5dHJZvN4+3V+sv/73p/2ZR2DQ7r4X7d6Xd6/Oq/cg7+/x37r4jkvm+fWLPZiqpfbc/hq+3XZcB47s9LpNZv95rJtNvtlsReTfWg8i51Z6fSazX5z2Tab/bLYi6l+Np7Hzqx01S6enfVl0ce9mMu22eyXxV5M9aDwOb/Ka7xq1rGodvGm0K1el3fTznfdFfutS+cetl2e/bJUO668zrAXa/K8cB4rr/GqWceiswu9Lu+mne+6K/ZbF3czm/2yVDuuvM6wF2vytvE8dmal02s2+81V2aP6npttl+duZrEXU31tPI+dWen0ms1+c1X2qL7nZtvluZtZ7MVUp8WfE0tnpdNrNvvNZdts1c4r7yHY7/a5b0z1pPE8dmal02s2+81l22zVzivvIdjv9rlvTPW68Tx2ZqXTa7ZdnVc/E1vJ4u64m9nsl8VeTPWx8Tx2ZqXTa7ZdnVc/E1vJ4u64m9nsl8VeTPWr8Tx2ZqXTazb7zWXbbPbLYi+menhvnVnp9JrNfnPZNpv9stiLqV40nsfOrHR6zWa/uWybzX5Z7MVU7xrPY2dWOr1ms99cts1mvyz2YqpvjeexMyudXrPZby7bZrNfFnvt973xf8L88P9lFnV2f51Zf6Seh7X3yn72m8u22eyXxV7Lubj295VPG//WUu7u3POm83hxLSuxh+7cqy66cq+yUntIzXUv5uZWtq3mHnpO1tRDau6+zg/Nre63xh5Sct23ZX3ZPp7PK3tMU102/j7XmZVOr9nsN5dts9kvi72Y6lPjeezMSqfXbPaby7bZ7JfFXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATPcbwGcGNgCEAwA=
+  </data>
+ </layer>
+ <layer name="BG-T" width="720" height="80">
+  <properties>
+   <property name="collisions" value="0"/>
+   <property name="layer" value="4"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WRa4UYRSG4YaEwb1bwQnOAnCCswGc4CwAJzgbwAnOAnCCswGc4HcBOEE/BiQ17Mml+KufJ3nnlTqn+1SrBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGXq6Vf3EzSXd1uOdmZlns1gjuUzw7KYF01kr3uPd1sO38+dwxzLZ4ZlMS+ayF73Hu+2HL6fO4c5ls8My2JeNJG97j3ebTl8P3cOcyyfGZbFvGgiew2+nzuJOZbPDMtiXgDN5P+9c5h1+cwQAOrnHncOsy6fGQJA/dxjKIffKwDUzz2Gcvi9AkD93GMAgH9jfFerNSFNTJPS5DQlTU3T0vQ0I81Ms9LsNCfNTfO66n56/vrfv5/tGVX2AYCSrc8t2pA2pk1pc9qStqZtaXvakXamXWl32pP2pn3uGG2yZ1TZBwBKdj636EK6mC6ly+lKupqupevpRrqZbqXb6U66m+65Y7TJnlFlHwAo2bvcovfpQ/qYPqXP6Uv6mr6l7+lH+pl+/bld3a1Wn9S3u+6npxT2jCr7AEDJ+ucWDUgD06A0OA1JQ9OwNDyNSCPTqDQ6jUlj0zh3jDbZM6rsAwAlm59btCAtTIvS4rQkLU3L0vK0Iq1Mq9LqtCatTevcMdpkz6iyDwCUbH9u0YF0MB1Kh9ORdDQdS8fTiXQynUqn05l0Np1zx2iTPaPKPgBQsvu5RQ/Sw/QoPU5P0tP0LD1PL9LL9Cq9Tm/S29TjjtEme0aVfQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoOl+A27VSjwAhAMA
+  </data>
+ </layer>
+ <layer name="FG-Earth" width="720" height="80">
+  <properties>
+   <property name="layer" value="3"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3W2yqEURjH4XU0xuaqbG6DiKuwuQ0iLkJjhogkF0TEof/hFL5milZr5nnqPfjV9759h6sUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID5ctkrZZAZZq4zN5nbzF3mPvPQ+77z23ePmaex7//67nPvf/7XXXfdddddd9111113J7077iX9mnnLvGc+Mp8/7E/6nbvuuuuuu+6666677s7a3d2FUvYy25mdzGZma4q2b9++ffv27du3b3+e9s8zF5nTzFnmOHMyRdu3b9++ffv27du3P0/7i/1SljLLmZW+1lprrbXWuqtXM2uZ9cyG1lprrbXWurP3MweZw8yR1lprrbXWurMHmavMMDPSWmuttdZad3bt97vWWmuttdYtde33u9Zaa6211i117fe71lprrbXWLXXt97vWWmuttdYtde33u9Zaa6211i117fe71lprrbXWLXXt97vWWmuttdYtde33u9Zaa6211i117fe71lprrbXWLXXt97vWWmuttdZaa6211lrr2ewv29Z74ACEAwA=
+  </data>
+ </layer>
+ <layer name="FG-Road" width="720" height="80">
+  <properties>
+   <property name="layer" value="2"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+ <objectgroup color="#aa007f" name="Spawns" width="720" height="80">
+  <object name="player" type="player" x="45" y="813" width="128" height="128"/>
+  <object name="pet" type="pet" x="11297" y="829" width="128" height="128"/>
+ </objectgroup>
+ <objectgroup color="#ffff00" name="Platforms" width="720" height="80">
+  <properties>
+   <property name="frameHeight" value="32"/>
+   <property name="frameWidth" value="128"/>
+   <property name="leftAnimationStartFrame" value="0"/>
+   <property name="leftAnimationStopFrame" value="3"/>
+   <property name="rightAnimationStartFrame" value="4"/>
+   <property name="rightAnimationStopFrame" value="7"/>
+   <property name="spritemap" value="01-platform.png"/>
+  </properties>
+ </objectgroup>
+ <objectgroup color="#00aa00" name="Slugs" width="720" height="80">
+  <properties>
+   <property name="maxSpeed" value="3"/>
+  </properties>
+  <object name="slug 0" type="slug" x="1122" y="740" width="216" height="92"/>
+  <object name="slug 0" type="slug" x="6716" y="862" width="294" height="94"/>
+  <object name="slug 0" type="slug" x="9910" y="790" width="242" height="90"/>
+  <object name="slug 0" type="slug" x="6009" y="846" width="294" height="94"/>
+  <object name="slug 0" type="slug" x="2868" y="732" width="246" height="98"/>
+  <object name="slug 0" type="slug" x="3872" y="856" width="294" height="94"/>
+  <object name="slug 0" type="slug" x="4085" y="851" width="294" height="94"/>
+  <object name="slug 0" type="slug" x="3714" y="855" width="294" height="94"/>
+  <object name="slug 0" type="slug" x="4140" y="851" width="294" height="94"/>
+  <object name="slug 0" type="slug" x="3650" y="852" width="294" height="94"/>
+  <object name="slug 0" type="slug" x="4228" y="850" width="294" height="94"/>
+  <object name="slug 0" type="slug" x="3578" y="852" width="294" height="94"/>
+  <object name="slug 0" type="slug" x="4285" y="851" width="294" height="94"/>
+  <object name="slug 0" type="slug" x="3506" y="851" width="294" height="94"/>
+  <object name="slug 0" type="slug" x="1837" y="553" width="246" height="98"/>
+  <object name="slug 0" type="slug" x="8147" y="853" width="246" height="98"/>
+ </objectgroup>
+ <objectgroup color="#ffaa00" name="Sunstrikes" width="720" height="80">
+  <object name="sunstrike 1" type="sunstrike" x="2073" y="847" width="210" height="102"/>
+  <object name="sunstrike 1" type="sunstrike" x="3611" y="848" width="203" height="99"/>
+  <object name="sunstrike 1" type="sunstrike" x="8472" y="705" width="162" height="146"/>
+  <object name="sunstrike 1" type="sunstrike" x="3942" y="844" width="212" height="104"/>
+  <object name="sunstrike 1" type="sunstrike" x="3591" y="843" width="901" height="107"/>
+  <object name="sunstrike 1" type="sunstrike" x="3577" y="842" width="434" height="110"/>
+  <object name="sunstrike 1" type="sunstrike" x="3827" y="840" width="434" height="110"/>
+  <object name="sunstrike 1" type="sunstrike" x="4069" y="840" width="434" height="110"/>
+  <object name="sunstrike 1" type="sunstrike" x="3781" y="846" width="207" height="100"/>
+  <object name="sunstrike 1" type="sunstrike" x="4240" y="842" width="211" height="107"/>
+  <object name="sunstrike 1" type="sunstrike" x="3190" y="539" width="136" height="98"/>
+  <object name="sunstrike 1" type="sunstrike" x="5388" y="721" width="136" height="98"/>
+  <object name="sunstrike 1" type="sunstrike" x="6576" y="631" width="230" height="98"/>
+  <object name="sunstrike 1" type="sunstrike" x="7612" y="759" width="136" height="98"/>
+  <object name="sunstrike 1" type="sunstrike" x="9442" y="707" width="136" height="98"/>
+ </objectgroup>
+ <objectgroup color="#00007f" name="Shield" width="720" height="80">
+  <object name="shield" type="shield" x="3243" y="877" width="64" height="64"/>
+  <object name="shield" type="shield" x="4641" y="743" width="64" height="64"/>
+  <object name="shield" type="shield" x="7112" y="584" width="64" height="64"/>
+  <object name="shield" type="shield" x="9674" y="548" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup color="#aa0000" name="Health" width="720" height="80">
+  <properties>
+   <property name="type" value="objects"/>
+  </properties>
+  <object name="health" type="health" x="2646" y="750" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup color="#ce0000" name="Damage" width="720" height="80">
+  <object name="-1" type="damage" x="337" y="964" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="kill" type="damage" x="1936" y="737" width="15" height="33">
+   <properties>
+    <property name="value" value="11"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="691" y="965" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="1043" y="968" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="1394" y="964" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="1747" y="966" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="2099" y="961" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="2450" y="964" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="2802" y="965" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="3153" y="962" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="3506" y="966" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="3858" y="964" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="4209" y="961" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="4562" y="961" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="4914" y="962" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="5266" y="964" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="5618" y="961" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="5969" y="962" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="6321" y="961" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="6673" y="961" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="7027" y="964" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="7381" y="962" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="7731" y="961" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="8082" y="964" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="8434" y="962" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="8786" y="960" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="9137" y="961" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="9490" y="958" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="9842" y="960" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="10194" y="962" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="-1" type="damage" x="10546" y="961" width="28" height="41">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="kill" type="damage" x="3328" y="723" width="15" height="33">
+   <properties>
+    <property name="value" value="11"/>
+   </properties>
+  </object>
+  <object name="kill" type="damage" x="5041" y="831" width="15" height="33">
+   <properties>
+    <property name="value" value="11"/>
+   </properties>
+  </object>
+  <object name="kill" type="damage" x="5185" y="734" width="15" height="33">
+   <properties>
+    <property name="value" value="11"/>
+   </properties>
+  </object>
+  <object name="kill" type="damage" x="7009" y="771" width="15" height="33">
+   <properties>
+    <property name="value" value="11"/>
+   </properties>
+  </object>
+  <object name="kill" type="damage" x="8818" y="803" width="15" height="33">
+   <properties>
+    <property name="value" value="11"/>
+   </properties>
+  </object>
+  <object name="kill" type="damage" x="10545" y="738" width="15" height="33">
+   <properties>
+    <property name="value" value="11"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#0000ff" name="Coins" width="720" height="80">
+  <object name="coin" type="coin" x="2241" y="397" width="64" height="64"/>
+  <object name="coin" type="coin" x="8887" y="355" width="64" height="64"/>
+  <object name="coin" type="coin" x="10532" y="332" width="64" height="64"/>
+  <object name="coin-blue" type="mib" x="3545" y="682" width="64" height="64"/>
+  <object name="coin" type="coin" x="5089" y="651" width="64" height="64"/>
+ </objectgroup>
+</map>
