@@ -59,8 +59,8 @@
   </data>
  </layer>
  <objectgroup color="#aa007f" name="Spawns" width="720" height="80">
-  <object name="player" type="player" x="45" y="510" width="128" height="128"/>
-  <object name="pet" type="pet" x="11213" y="763" width="128" height="128"/>
+  <object name="player" type="player" x="48" y="512" width="128" height="128"/>
+  <object name="pet" type="pet" x="11200" y="768" width="128" height="128"/>
  </objectgroup>
  <objectgroup color="#ffff00" name="Platforms" width="720" height="80">
   <properties>
@@ -72,112 +72,112 @@
    <property name="rightAnimationStopFrame" value="0"/>
    <property name="spritemap" value="04-platform.png"/>
   </properties>
-  <object name="p1" type="platform" x="5797" y="1205" width="473" height="76"/>
+  <object name="p1" type="platform" x="5792" y="1200" width="480" height="80"/>
  </objectgroup>
  <objectgroup color="#00aa00" name="Slugs" width="720" height="80">
   <properties>
    <property name="maxSpeed" value="3"/>
   </properties>
-  <object name="slug 0" type="slug" x="1266" y="618" width="640" height="98"/>
-  <object name="slug 0" type="slug" x="2708" y="427" width="640" height="98"/>
-  <object name="slug 0" type="slug" x="4110" y="283" width="508" height="94"/>
-  <object name="slug 0" type="slug" x="6674" y="693" width="482" height="102"/>
+  <object name="slug 0" type="slug" x="1264" y="624" width="640" height="96"/>
+  <object name="slug 0" type="slug" x="2720" y="448" width="640" height="96"/>
+  <object name="slug 0" type="slug" x="4096" y="304" width="496" height="96"/>
+  <object name="slug 0" type="slug" x="6672" y="720" width="480" height="96"/>
  </objectgroup>
  <objectgroup color="#ffaa00" name="Sunstrikes" width="720" height="80">
-  <object name="sunstrike 1" type="sunstrike" x="3245" y="871" width="643" height="89"/>
-  <object name="sunstrike 1" type="sunstrike" x="9035" y="678" width="465" height="89"/>
-  <object name="sunstrike 1" type="sunstrike" x="8889" y="76" width="619" height="89"/>
+  <object name="sunstrike 1" type="sunstrike" x="3248" y="864" width="640" height="96"/>
+  <object name="sunstrike 1" type="sunstrike" x="9024" y="672" width="480" height="96"/>
+  <object name="sunstrike 1" type="sunstrike" x="8880" y="64" width="608" height="96"/>
  </objectgroup>
  <objectgroup color="#00007f" name="Shield" width="720" height="80">
-  <object name="shield" type="shield" x="5727" y="1007" width="64" height="64"/>
-  <object name="shield" type="shield" x="6828" y="958" width="64" height="64"/>
-  <object name="shield" type="shield" x="8010" y="646" width="64" height="64"/>
-  <object name="shield" type="shield" x="9360" y="860" width="64" height="64"/>
-  <object name="shield" type="shield" x="752" y="317" width="64" height="64"/>
+  <object name="shield" type="shield" x="5728" y="1008" width="64" height="64"/>
+  <object name="shield" type="shield" x="6832" y="960" width="64" height="64"/>
+  <object name="shield" type="shield" x="8000" y="640" width="64" height="64"/>
+  <object name="shield" type="shield" x="9360" y="848" width="64" height="64"/>
+  <object name="shield" type="shield" x="752" y="320" width="64" height="64"/>
  </objectgroup>
  <objectgroup color="#aa0000" name="Health" width="720" height="80">
   <properties>
    <property name="type" value="objects"/>
   </properties>
-  <object name="health" type="health" x="5344" y="775" width="64" height="64"/>
+  <object name="health" type="health" x="5344" y="768" width="64" height="64"/>
  </objectgroup>
  <objectgroup color="#ce0000" name="Damage" width="720" height="80">
-  <object name="-4" type="damage" x="1587" y="17" width="26" height="67">
+  <object name="-4" type="damage" x="1584" y="16" width="32" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="kill" type="damage" x="765" y="991" width="251" height="231">
+  <object name="kill" type="damage" x="768" y="992" width="256" height="224">
    <properties>
     <property name="value" value="11"/>
    </properties>
   </object>
-  <object name="kill" type="damage" x="1535" y="992" width="131" height="259">
+  <object name="kill" type="damage" x="1536" y="992" width="128" height="256">
    <properties>
     <property name="value" value="11"/>
    </properties>
   </object>
-  <object name="kill" type="damage" x="2179" y="1003" width="153" height="227">
+  <object name="kill" type="damage" x="2176" y="992" width="160" height="224">
    <properties>
     <property name="value" value="11"/>
    </properties>
   </object>
-  <object name="kill" type="damage" x="3363" y="1181" width="505" height="95">
+  <object name="kill" type="damage" x="3360" y="1184" width="512" height="96">
    <properties>
     <property name="value" value="11"/>
    </properties>
   </object>
-  <object name="kill" type="damage" x="4099" y="1185" width="255" height="95">
+  <object name="kill" type="damage" x="4096" y="1184" width="256" height="96">
    <properties>
     <property name="value" value="11"/>
    </properties>
   </object>
-  <object name="kill" type="damage" x="4485" y="1091" width="251" height="185">
+  <object name="kill" type="damage" x="4480" y="1088" width="256" height="192">
    <properties>
     <property name="value" value="11"/>
    </properties>
   </object>
-  <object name="kill" type="damage" x="4741" y="1205" width="375" height="75">
+  <object name="kill" type="damage" x="4736" y="1200" width="384" height="80">
    <properties>
     <property name="value" value="11"/>
    </properties>
   </object>
-  <object name="kill" type="damage" x="5791" y="1263" width="477" height="17">
+  <object name="kill" type="damage" x="5792" y="1264" width="480" height="16">
    <properties>
     <property name="value" value="11"/>
    </properties>
   </object>
-  <object name="kill" type="damage" x="5637" y="1191" width="85" height="95">
+  <object name="kill" type="damage" x="5632" y="1184" width="96" height="96">
    <properties>
     <property name="value" value="11"/>
    </properties>
   </object>
-  <object name="kill" type="damage" x="7169" y="1185" width="285" height="91">
+  <object name="kill" type="damage" x="7168" y="1184" width="288" height="80">
    <properties>
     <property name="value" value="11"/>
    </properties>
   </object>
-  <object name="kill" type="damage" x="7972" y="1185" width="295" height="89">
+  <object name="kill" type="damage" x="7968" y="1184" width="304" height="80">
    <properties>
     <property name="value" value="11"/>
    </properties>
   </object>
-  <object name="kill" type="damage" x="8400" y="1143" width="641" height="21">
+  <object name="kill" type="damage" x="8400" y="1136" width="640" height="16">
    <properties>
     <property name="value" value="11"/>
    </properties>
   </object>
-  <object name="kill" type="damage" x="9170" y="1075" width="157" height="201">
+  <object name="kill" type="damage" x="9168" y="1072" width="160" height="224">
    <properties>
     <property name="value" value="11"/>
    </properties>
   </object>
-  <object name="kill" type="damage" x="9554" y="1083" width="249" height="193">
+  <object name="kill" type="damage" x="9552" y="1072" width="256" height="192">
    <properties>
     <property name="value" value="11"/>
    </properties>
   </object>
-  <object name="kill" type="damage" x="9938" y="1001" width="375" height="275">
+  <object name="kill" type="damage" x="9936" y="992" width="384" height="272">
    <properties>
     <property name="value" value="11"/>
    </properties>
@@ -187,133 +187,133 @@
     <property name="value" value="2"/>
    </properties>
   </object>
-  <object name="-2" type="damage" x="4906" y="895" width="49" height="68">
+  <object name="-2" type="damage" x="4912" y="896" width="48" height="64">
    <properties>
     <property name="value" value="2"/>
    </properties>
   </object>
-  <object name="-2" type="damage" x="4898" y="1153" width="62" height="19">
+  <object name="-2" type="damage" x="4896" y="1152" width="64" height="16">
    <properties>
     <property name="value" value="2"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="565" y="159" width="26" height="67">
+  <object name="-4" type="damage" x="560" y="160" width="32" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="479" y="207" width="26" height="67">
+  <object name="-4" type="damage" x="480" y="208" width="32" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="825" y="469" width="30" height="25">
+  <object name="-4" type="damage" x="816" y="464" width="48" height="32">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="249" y="295" width="28" height="51">
+  <object name="-4" type="damage" x="256" y="288" width="32" height="48">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="2841" y="561" width="26" height="67">
+  <object name="-4" type="damage" x="2832" y="560" width="32" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="4009" y="259" width="26" height="67">
+  <object name="-4" type="damage" x="4000" y="256" width="32" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="3435" y="355" width="28" height="55">
+  <object name="-4" type="damage" x="3440" y="352" width="16" height="48">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="6599" y="821" width="26" height="67">
+  <object name="-4" type="damage" x="6592" y="816" width="32" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="7109" y="837" width="26" height="67">
+  <object name="-4" type="damage" x="7104" y="832" width="32" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="6839" y="371" width="26" height="67">
+  <object name="-4" type="damage" x="6832" y="368" width="32" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="6641" y="231" width="26" height="67">
+  <object name="-4" type="damage" x="6640" y="240" width="16" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="6383" y="105" width="26" height="67">
+  <object name="-4" type="damage" x="6384" y="112" width="16" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="6837" y="595" width="26" height="35">
+  <object name="-4" type="damage" x="6832" y="592" width="32" height="32">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="9433" y="805" width="26" height="67">
+  <object name="-4" type="damage" x="9424" y="800" width="32" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="9429" y="223" width="26" height="67">
+  <object name="-4" type="damage" x="9424" y="208" width="32" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="8933" y="215" width="26" height="67">
+  <object name="-4" type="damage" x="8928" y="208" width="32" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="8573" y="183" width="26" height="67">
+  <object name="-4" type="damage" x="8576" y="176" width="16" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="8443" y="217" width="26" height="67">
+  <object name="-4" type="damage" x="8448" y="224" width="16" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="8245" y="363" width="26" height="67">
+  <object name="-4" type="damage" x="8240" y="368" width="32" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="10809" y="299" width="26" height="67">
+  <object name="-4" type="damage" x="10816" y="304" width="32" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="10557" y="175" width="26" height="67">
+  <object name="-4" type="damage" x="10560" y="176" width="32" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
-  <object name="-4" type="damage" x="10431" y="93" width="26" height="67">
+  <object name="-4" type="damage" x="10432" y="96" width="16" height="64">
    <properties>
     <property name="value" value="4"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup color="#0000ff" name="Coins" width="720" height="80">
-  <object name="coin" type="coin" x="1568" y="62" width="64" height="64"/>
-  <object name="coin" type="coin" x="4907" y="1004" width="64" height="64"/>
-  <object name="coin-blue" type="mib" x="8309" y="963" width="64" height="64"/>
+  <object name="coin" type="coin" x="1568" y="64" width="64" height="64"/>
+  <object name="coin" type="coin" x="4912" y="1008" width="64" height="64"/>
+  <object name="coin-blue" type="mib" x="8304" y="960" width="64" height="64"/>
   <object name="coin" type="coin" x="9166" y="4" width="64" height="64"/>
-  <object name="coin" type="coin" x="4026" y="268" width="64" height="64"/>
+  <object name="coin" type="coin" x="4016" y="256" width="64" height="64"/>
  </objectgroup>
  <objectgroup color="#55ffff" name="Road" width="720" height="80">
   <object name="road" type="road" x="8400" y="1040" width="640" height="16"/>
