@@ -59,8 +59,8 @@
   </data>
  </layer>
  <objectgroup color="#aa007f" name="Spawns" width="720" height="80">
-  <object name="player" type="player" x="45" y="813" width="128" height="128"/>
-  <object name="pet" type="pet" x="11297" y="829" width="128" height="128"/>
+  <object name="player" type="player" x="48" y="816" width="128" height="128"/>
+  <object name="pet" type="pet" x="11296" y="832" width="128" height="128"/>
  </objectgroup>
  <objectgroup color="#ffff00" name="Platforms" width="720" height="80">
   <properties>
@@ -77,51 +77,51 @@
   <properties>
    <property name="maxSpeed" value="3"/>
   </properties>
-  <object name="slug 0" type="slug" x="1122" y="740" width="216" height="92"/>
-  <object name="slug 0" type="slug" x="6716" y="862" width="294" height="94"/>
-  <object name="slug 0" type="slug" x="9910" y="790" width="242" height="90"/>
-  <object name="slug 0" type="slug" x="6009" y="846" width="294" height="94"/>
-  <object name="slug 0" type="slug" x="2868" y="732" width="246" height="98"/>
-  <object name="slug 0" type="slug" x="3872" y="856" width="294" height="94"/>
-  <object name="slug 0" type="slug" x="4085" y="851" width="294" height="94"/>
-  <object name="slug 0" type="slug" x="3714" y="855" width="294" height="94"/>
-  <object name="slug 0" type="slug" x="4140" y="851" width="294" height="94"/>
-  <object name="slug 0" type="slug" x="3650" y="852" width="294" height="94"/>
-  <object name="slug 0" type="slug" x="4228" y="850" width="294" height="94"/>
-  <object name="slug 0" type="slug" x="3578" y="852" width="294" height="94"/>
-  <object name="slug 0" type="slug" x="4285" y="851" width="294" height="94"/>
-  <object name="slug 0" type="slug" x="3506" y="851" width="294" height="94"/>
-  <object name="slug 0" type="slug" x="1837" y="553" width="246" height="98"/>
-  <object name="slug 0" type="slug" x="8147" y="853" width="246" height="98"/>
+  <object name="slug 0" type="slug" x="1120" y="736" width="224" height="96"/>
+  <object name="slug 0" type="slug" x="6720" y="864" width="288" height="96"/>
+  <object name="slug 0" type="slug" x="9904" y="784" width="256" height="96"/>
+  <object name="slug 0" type="slug" x="6016" y="848" width="288" height="96"/>
+  <object name="slug 0" type="slug" x="2864" y="736" width="256" height="96"/>
+  <object name="slug 0" type="slug" x="3872" y="864" width="288" height="96"/>
+  <object name="slug 0" type="slug" x="4080" y="864" width="288" height="96"/>
+  <object name="slug 0" type="slug" x="3712" y="864" width="288" height="96"/>
+  <object name="slug 0" type="slug" x="4128" y="864" width="288" height="96"/>
+  <object name="slug 0" type="slug" x="3648" y="864" width="288" height="96"/>
+  <object name="slug 0" type="slug" x="4224" y="864" width="288" height="96"/>
+  <object name="slug 0" type="slug" x="3568" y="864" width="288" height="96"/>
+  <object name="slug 0" type="slug" x="4272" y="864" width="288" height="96"/>
+  <object name="slug 0" type="slug" x="3504" y="864" width="288" height="96"/>
+  <object name="slug 0" type="slug" x="1824" y="560" width="256" height="96"/>
+  <object name="slug 0" type="slug" x="8144" y="864" width="256" height="96"/>
  </objectgroup>
  <objectgroup color="#ffaa00" name="Sunstrikes" width="720" height="80">
-  <object name="sunstrike 1" type="sunstrike" x="2073" y="847" width="210" height="102"/>
-  <object name="sunstrike 1" type="sunstrike" x="3611" y="848" width="203" height="99"/>
-  <object name="sunstrike 1" type="sunstrike" x="8472" y="705" width="162" height="146"/>
-  <object name="sunstrike 1" type="sunstrike" x="3942" y="844" width="212" height="104"/>
-  <object name="sunstrike 1" type="sunstrike" x="3591" y="843" width="901" height="107"/>
-  <object name="sunstrike 1" type="sunstrike" x="3577" y="842" width="434" height="110"/>
-  <object name="sunstrike 1" type="sunstrike" x="3827" y="840" width="434" height="110"/>
-  <object name="sunstrike 1" type="sunstrike" x="4069" y="840" width="434" height="110"/>
-  <object name="sunstrike 1" type="sunstrike" x="3781" y="846" width="207" height="100"/>
-  <object name="sunstrike 1" type="sunstrike" x="4240" y="842" width="211" height="107"/>
-  <object name="sunstrike 1" type="sunstrike" x="3190" y="539" width="136" height="98"/>
-  <object name="sunstrike 1" type="sunstrike" x="5388" y="721" width="136" height="98"/>
-  <object name="sunstrike 1" type="sunstrike" x="6576" y="631" width="230" height="98"/>
-  <object name="sunstrike 1" type="sunstrike" x="7612" y="759" width="136" height="98"/>
-  <object name="sunstrike 1" type="sunstrike" x="9442" y="707" width="136" height="98"/>
+  <object name="sunstrike 1" type="sunstrike" x="2080" y="848" width="208" height="96"/>
+  <object name="sunstrike 1" type="sunstrike" x="3600" y="864" width="192" height="96"/>
+  <object name="sunstrike 1" type="sunstrike" x="8480" y="704" width="160" height="144"/>
+  <object name="sunstrike 1" type="sunstrike" x="3936" y="864" width="208" height="96"/>
+  <object name="sunstrike 1" type="sunstrike" x="3584" y="864" width="896" height="96"/>
+  <object name="sunstrike 1" type="sunstrike" x="3568" y="864" width="432" height="96"/>
+  <object name="sunstrike 1" type="sunstrike" x="3824" y="864" width="432" height="96"/>
+  <object name="sunstrike 1" type="sunstrike" x="4080" y="864" width="432" height="96"/>
+  <object name="sunstrike 1" type="sunstrike" x="3776" y="864" width="192" height="96"/>
+  <object name="sunstrike 1" type="sunstrike" x="4240" y="864" width="208" height="96"/>
+  <object name="sunstrike 1" type="sunstrike" x="3184" y="544" width="144" height="96"/>
+  <object name="sunstrike 1" type="sunstrike" x="5376" y="720" width="144" height="96"/>
+  <object name="sunstrike 1" type="sunstrike" x="6576" y="640" width="240" height="96"/>
+  <object name="sunstrike 1" type="sunstrike" x="7616" y="752" width="144" height="96"/>
+  <object name="sunstrike 1" type="sunstrike" x="9440" y="704" width="144" height="96"/>
  </objectgroup>
  <objectgroup color="#00007f" name="Shield" width="720" height="80">
   <object name="shield" type="shield" x="3243" y="877" width="64" height="64"/>
-  <object name="shield" type="shield" x="4641" y="743" width="64" height="64"/>
-  <object name="shield" type="shield" x="7112" y="584" width="64" height="64"/>
-  <object name="shield" type="shield" x="9674" y="548" width="64" height="64"/>
+  <object name="shield" type="shield" x="4640" y="736" width="64" height="64"/>
+  <object name="shield" type="shield" x="7120" y="592" width="64" height="64"/>
+  <object name="shield" type="shield" x="9680" y="544" width="64" height="64"/>
  </objectgroup>
  <objectgroup color="#aa0000" name="Health" width="720" height="80">
   <properties>
    <property name="type" value="objects"/>
   </properties>
-  <object name="health" type="health" x="2646" y="750" width="64" height="64"/>
+  <object name="health" type="health" x="2640" y="752" width="64" height="64"/>
  </objectgroup>
  <objectgroup color="#ce0000" name="Damage" width="720" height="80">
   <object name="-1" type="damage" x="337" y="964" width="28" height="41">
@@ -311,11 +311,11 @@
   </object>
  </objectgroup>
  <objectgroup color="#0000ff" name="Coins" width="720" height="80">
-  <object name="coin" type="coin" x="2241" y="397" width="64" height="64"/>
-  <object name="coin" type="coin" x="8887" y="355" width="64" height="64"/>
-  <object name="coin" type="coin" x="10532" y="332" width="64" height="64"/>
-  <object name="coin-blue" type="mib" x="3545" y="682" width="64" height="64"/>
-  <object name="coin" type="coin" x="5089" y="651" width="64" height="64"/>
+  <object name="coin" type="coin" x="2240" y="400" width="64" height="64"/>
+  <object name="coin" type="coin" x="8880" y="352" width="64" height="64"/>
+  <object name="coin" type="coin" x="10528" y="336" width="64" height="64"/>
+  <object name="coin-blue" type="mib" x="3536" y="688" width="64" height="64"/>
+  <object name="coin" type="coin" x="5088" y="656" width="64" height="64"/>
  </objectgroup>
  <objectgroup color="#55ffff" name="Road" width="720" height="80">
   <object name="road" type="road" x="3488" y="816" width="1136" height="16"/>
