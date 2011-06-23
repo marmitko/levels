@@ -314,7 +314,7 @@
   <object name="coin" type="coin" x="2240" y="400" width="64" height="64"/>
   <object name="coin" type="coin" x="8880" y="352" width="64" height="64"/>
   <object name="coin" type="coin" x="10528" y="336" width="64" height="64"/>
-  <object name="coin-blue" type="mib" x="3536" y="688" width="64" height="64"/>
+  <object name="coin-blue" type="mib" x="3456" y="592" width="64" height="64"/>
   <object name="coin" type="coin" x="5088" y="656" width="64" height="64"/>
  </objectgroup>
  <objectgroup color="#55ffff" name="Road" width="720" height="80">
